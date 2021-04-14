@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="PhotoEditor.css" rel="stylesheet">
+    <script src="PhotoEditor.js">
+      
+      </script>
+</head>
+<body>
+  <div class="upload" onclick="select()">
+  <input id="foto-file" type="file">
+  <b>Select Image</b>
+  </div>
+  <div class="container">
+    <img id="foto-image" class="img">
+  </div>
+  <div class="btns">
+    <button class="btn" onclick="makegrayscale()">GrayScale</button>
+    <button class="btn" onclick="makeBright()">Brightness+</button>
+    <button class="btn" onclick="makeDark()">Brightness-</button>
+    <button class="btn" onclick="Blur()">Blur</button>
+    <button class="btn" onclick="Sharp()">Sharpen</button>
+    <br><br>
+    <button class="down" onclick="download()">Download</button>
+  </div>
+</body>
+</html>
